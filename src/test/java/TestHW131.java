@@ -8,7 +8,7 @@ public class TestHW131 {
     @Test
     public void testHW131() {
         Worker worker = new Worker("Dima", 28, "F", 30000);
-        Manager manager = new Manager("Kosty", 40, "F", 10000, 0);
+        Manager manager = new Manager("Kostya", 40, "F", 10000, 0);
         Manager manager2 = new Manager("Sasha", 40, "F", 10000, 20);
         Director director = new Director("Olha", 28, "F", 10000,0);
         Director director2 = new Director("Kolya", 28, "F", 10000,200);
