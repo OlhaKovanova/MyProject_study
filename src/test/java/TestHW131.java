@@ -11,7 +11,7 @@ public class TestHW131 {
         Manager manager = new Manager("Kostya", 40, "F", 10000, 0);
         Manager manager2 = new Manager("Sasha", 40, "F", 10000, 20);
         Director director = new Director("Olha", 28, "F", 10000,0);
-        Director director2 = new Director("Olha", 28, "F", 10000,200);
+        Director director2 = new Director("Kolya", 28, "F", 10000,200);
 
         Assert.assertEquals(worker.getSalary(), worker.getBaseSalary());
         Assert.assertEquals(manager.getSalary(), 0);
